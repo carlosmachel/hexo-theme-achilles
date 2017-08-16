@@ -1,20 +1,18 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    GitHub: https://github.com/geniustanley
+    Blog: /blog
+    Archive: /blog/archives/
+    GitHub: https://github.com/carlosmachel
     Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
 
 # Comment
-# e.g disqus: seansun
-disqus: geniustanley
-duoshuo:
+disqus: carlosmachel
 
 # Analytics
 # google-analytics:
-ga: UA-91330174-1
+#ga:
 
 # Copyright Infomation
 startyear: 2017
