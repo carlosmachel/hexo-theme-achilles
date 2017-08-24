@@ -4,13 +4,15 @@ html(lang=config.language)
         include head
         block meta
     body
+        .header
+            a.logo-link(href=url_for())
+                img(src=theme.logo)
+            h1=config.title
+            p=config.subtitle
+            include nav    
         .wrap
-            .header
-                a.logo-link(href=url_for())
-                    img(src=theme.logo)
-                include nav
-        section.container
-            block container
+            section.container
+                block container
         .wrap
             footer
                 block pagination

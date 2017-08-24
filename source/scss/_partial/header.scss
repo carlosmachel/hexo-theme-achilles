@@ -1,22 +1,38 @@
+@import 'variables.scss';
+
 .header {
-    min-height: 60px;
+    float: left;
+    width: 23%;
+    min-height: 1024px;
+    height: 100%;
+    background: $bg;
+    text-align: center;
+
+    h1 {
+        @extend %esp-tit;
+    }
 
     .logo-link {
-        float: left;
+        //float: left;
+        display: block;
+        width: 150px;
+        margin: 0 auto;
     }
     
     .nav {
-        float: right;
-        left: 80px;
+        //float: right;
+        //left: 80px;
     }
 
     .logo-link img {
-        height: 60px;
+        display: block;
+        width: 100%;
+        border-radius: 50%;
     }
 
     .nav-list-item {
-        display: inline-block;
-        padding: 19px  10px ;
+        //display: inline-block;
+        //padding: 19px  10px ;
         a {
             font-size: 16px;
             line-height: 1.4;
